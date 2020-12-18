@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+    <link href="styles.css" rel="stylesheet">    
+</head>
+<script type="text/javascript">
+    num = prompt("Enter the limit of of generating a Fibonacci: ")
+    a = 0;
+    b = 1;
+
+    document.write("<center><h1>"+'Fibonacci Series <hr>');
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+
+    for(i=2; i<=num; i++)
+    {
+        c = a + b;
+        document.write(c);
+        a = b;
+        b = c;
+        document.write('<br>');
+    }
+    document.write("<hr>End Result<center></h1>");
+
+</script>
+<body>
+    
+</body>
+</html>
