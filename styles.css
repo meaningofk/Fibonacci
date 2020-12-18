@@ -1,0 +1,13 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rosybrown;
+    font-family: "Odachi";
+}
+
+@font-face{
+    font-family:"Odachi";
+    src: url("Odachi 400.otf");
+}
